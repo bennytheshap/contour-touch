@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" /> 
+	<meta name="apple-mobile-web-app-capable" content="yes" /> 
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /> 
+
+	<title>Contour Demo</title>
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	
+ 
+	<script src="http://www.google.com/jsapi?key=ABQIAAAAYDkSErKMGEmOCshmJj0s6RRsKEx5A6RF7IAHQNW7V9z1gkH0KBQhvvlaNQjYYC45iFiNKCfIV9THTg"></script>
+	<script>
+	  google.load("jquery", "1");
+	</script>
+	<script type="text/javascript" src="libs/jScrollTouch.js"></script> 
+
+	<script type="text/javascript" src="js/index.js"> </script>
+</head>
+<body>
+	<div id="header"><a href="#">Contour Demo</a></div> 
+
+	<div id="wrapper"> 
+		<div id="scroller">
+			<img class="fullsizeimage" id="theimage" src="images/scan.jpg" alt="Milwaukee Art Museum">
+			<canvas id="thecanvas" width=300 height=300></canvas>
+		</div> 
+	</div> 
+
+	<div id="footer">
+		<ul class="chosen"  >
+			<li >
+				<a class="chosen" id="move_mode_button" href="#"><span>↔↕</span>Move and Zoom</a>
+			</li>
+			<li>
+				<a id="delineate_mode_button" href="#"><span>+</span>Add Boundary</a>
+			</li>
+		</ul>
+	</div> 
+	</body>
+</body>
+
+
+</html>

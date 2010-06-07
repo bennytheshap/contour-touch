@@ -1,0 +1,140 @@
+body {
+	font-size:12px;
+	-webkit-user-select:none;
+    -webkit-text-size-adjust:none;
+/*	-webkit-box-sizing:border-box;*/
+	font-family:helvetica;
+}
+ 
+body,ul,li {
+	padding:0;
+	margin:0;
+}
+ 
+#header {
+	width:100%;
+	height:45px;
+	line-height:45px;
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #fe96c9), color-stop(0.05, #d51875), color-stop(1, #7b0a2e));
+	padding:0;
+	color:#eee;
+	font-size:20px;
+	text-align:center;
+}
+ 
+#header a {
+	color:#f3f3f3;
+	text-decoration:none;
+	font-weight:bold;
+	text-shadow:0 -1px 0 rgba(0,0,0,0.5);
+}
+ 
+#footer {
+	width:100%;
+	height:48px;
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #999), color-stop(0.02, #666), color-stop(1, #222));;
+	padding:0;
+	border-top:1px solid #444;
+}
+
+
+#footer li {
+	display:block;
+	float:left;
+}
+ 
+#footer li {
+	width:50%;
+	text-align:center;
+}
+
+
+#move_mode_button {
+	border-right:1px solid #333;
+}
+ 
+#delineate_mode_button {
+	border-left:1px solid #6a6a6a;
+}
+
+a.chosen {
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, color-stop(0, #0e96c9), color-stop(0.05, #051875), color-stop(1, #0b0a2e));
+	
+}
+
+#footer a {
+	display:block;
+	text-decoration:none;
+	font-size:12px;
+	color:#bbb;
+	line-height:24px;
+	text-shadow:0 -1px 0 #000;
+}
+ 
+#footer span {
+	display:block;
+	font-size:30px;
+	font-weight:bold;
+}
+ 
+ 
+#wrapper {
+	height:100%;		/* Of course you need to specify the object height */
+ 
+	position:relative;	/* On older OS versions "position" and "z-index" must be defined, */
+	z-index:1;			/* it seems that recent webkit is less picky and works anyway. */
+	overflow:scroll;	/* auto | scroll | hidden */
+ 
+	width:100%;
+	background:#aaa;
+/*	background:#aaa url(wrapper-bg.png);*/
+}
+
+
+#scroller {
+/*	-webkit-touch-callout:none;*/
+/*	-webkit-tap-highlight-color:rgba(0,0,0,0);*/
+ 
+/*	float:left;
+	width:3000px;
+	height:3000px;*/
+	padding:2;
+	
+/*	-webkit-box-shadow:0 0 8px #555;	/* Don't use shadows in production, they slow down drastically CSS animations */	
+}
+
+ 
+#scroller ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:100%;
+	text-align:left;
+}
+ 
+#scroller li {
+	padding:0 10px;
+	height:40px;
+	line-height:40px;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #fff;
+	background-color:#fafafa;
+/*	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d4d4d4), to(#fafafa));*/
+	font-size:14px;
+}
+
+.fullsizeimage {
+
+}
+
+#theimage {
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+
+#thecanvas {
+	position:absolute;
+	left:0px;
+	top:0px;
+}
